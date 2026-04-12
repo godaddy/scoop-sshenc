@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
   "url": "https://github.com/jgowdy/sshenc/releases/download/v0.3.7/sshenc-x86_64-pc-windows-msvc.zip",
-  "hash": ""
+  "hash": "b87a0a035f202f96bc72297688000d667ead7d2e7c7405c344ca53351254628f"
         }
     },
     "bin": [
