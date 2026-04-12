@@ -1,24 +1,13 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "Hardware-backed SSH key management (Windows TPM 2.0)",
     "homepage": "https://github.com/jgowdy/sshenc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-  "url": "https://github.com/jgowdy/sshenc/releases/download/v0.4.0/sshenc-x86_64-pc-windows-msvc.zip",
-  "hash": "6f26e3203e02dbee3d4975f3d0f69aaab0d550fc928e39ed1e71764259006ead"
+  "url": "https://github.com/jgowdy/sshenc/releases/download/v0.5.0/sshenc-x86_64-pc-windows-msvc.zip",
+  "hash": "f7204c83b95e99cd2d573e850fdc3e967748a0b63118ef765e4ba8d4980c5487"
         }
     },
-    "bin": [
-        "sshenc.exe",
-        "sshenc-keygen.exe",
-        "sshenc-agent.exe",
-        "gitenc.exe"
-    ],
-    "post_install": "Write-Host 'Run \"sshenc install\" to configure SSH.'",
-    "notes": [
-        "Run 'sshenc install' to configure SSH and start the agent.",
-        "Run 'sshenc keygen' to create your first hardware-backed key.",
-        "Run 'sshenc uninstall' to revert SSH configuration."
-    ]
+    "bin": ["sshenc.exe","sshenc-keygen.exe","sshenc-agent.exe","gitenc.exe"]
 }
