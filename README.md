@@ -1,11 +1,11 @@
 # scoop-sshenc
 
-Scoop bucket for [sshenc](https://github.com/jgowdy/sshenc) -- hardware-backed SSH key management using Windows TPM 2.0.
+Scoop bucket for [sshenc](https://github.com/godaddy/sshenc) -- hardware-backed SSH key management using Windows TPM 2.0.
 
 ## Install
 
 ```powershell
-scoop bucket add sshenc https://github.com/jgowdy/scoop-sshenc
+scoop bucket add sshenc https://github.com/godaddy/scoop-sshenc
 scoop install sshenc
 ```
 
