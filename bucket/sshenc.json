@@ -1,12 +1,12 @@
 {
-    "version": "0.6.89",
+    "version": "0.6.90",
     "description": "Hardware-backed SSH key management (Windows TPM 2.0)",
     "homepage": "https://github.com/godaddy/sshenc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/godaddy/sshenc/releases/download/v0.6.89/sshenc-x86_64-pc-windows-msvc.zip",
-            "hash": "ff577df205c05ef31920fab616a04adfd8c86bdf3bacecf6a6c66eb9fe3e7bcb"
+            "url": "https://github.com/godaddy/sshenc/releases/download/v0.6.90/sshenc-x86_64-pc-windows-msvc.zip",
+            "hash": "e80760d602746fd02ba26deb6512853b4bdb8032039dd946f486c6c3ece1f645"
         }
     },
     "bin": [
